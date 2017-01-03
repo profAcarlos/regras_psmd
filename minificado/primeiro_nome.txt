@@ -1,0 +1,1 @@
+trim(mid(trim([Mail_destinatario_nome]),1,POS(trim([Mail_destinatario_nome])," ",1)))
