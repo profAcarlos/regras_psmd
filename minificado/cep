@@ -1,0 +1,1 @@
+LEFT(RIGHT("00000" & [cep],8),5) & "-" & RIGHT([cep],3)
