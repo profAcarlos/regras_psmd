@@ -1,0 +1,11 @@
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"FA"), "Banco Itaucard S/A   CNPJ: 07.221.678/0001-43 "&CHR(10)&"Alameda Pedro Calil, 43 - Vila das Acácias - CEP: 08557-105-Poá - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"FC"), "Financeira Itaú CBD S.A. Crédito Financiamento e Investimento   CNPJ: 06.881.898/0001-04 "&CHR(10)&"Praça Alfredo Egydio de Souza Aranha, 100 - Torre Conceição 9º andar Parque Jabaquara - CEP: 04344-902 - São Paulo - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"FT"), "Itaú Unibanco S.A   CNPJ: 60.701.190/0001-04 "&CHR(10)&"Praça Alfredo Egydio de Souza Aranha, 100 - Torre Conceição 9º andar Parque Jabaquara - CEP: 04344-902 - São Paulo - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"HC"), "Hipercard Banco Múltipo S.A   CNPJ: 03.012.230/0001-69    "&CHR(10)&"Rua Ernesto de Paula Santos, 187 - Loja 0001 Emp. Excelsior - Boa Viagem - CEP: 51021-230 - Recife - PE ",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"CC"), "ITAÚ UNIBANCO S/A   CNPJ: 17.192.451/0001-70 "&CHR(10)&" Endereço: Praça Alfredo Egydio de Souza Aranha,100 - São Paulo - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"LJ"), "Banco Itaucard S/A   CNPJ: 07.221.678/0001-43 "&CHR(10)&"Alameda Pedro Calil, 43 - Vila das Acácias - CEP: 08557-105-Poá - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"LC"), "Luiza Cred S.A Sociedade de Crédito, Financiamento e Investimento   CNPJ: 02.206.577/0001-04 "&CHR(10)&"Rua Amazonas da Silva, 27 - CEP: 02051-000 - São Paulo - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"MA"), "Banco Itaucard S/A   CNPJ: 07.221.678/0001-43 "&CHR(10)&"Alameda Pedro Calil, 43 - Vila das Acácias - CEP: 08557-105-Poá - SP",
+IF( CONTAINS(UPPER([Titulos_carteira_nome]),"CR"), "Banco Itaucard S/A   CNPJ: 07.221.678/0001-43 "&CHR(10)&"Alameda Pedro Calil, 43 - Vila das Acácias - CEP: 08557-105-Poá - SP",
+"Banco Itaucard S/A   CNPJ: 07.221.678/0001-43 "&CHR(10)&"Alameda Pedro Calil, 43 - Vila das Acácias - CEP: 08557-105-Poá - SP"
+)))))))))
